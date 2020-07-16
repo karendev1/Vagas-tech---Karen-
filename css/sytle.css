@@ -1,0 +1,803 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,700;1,300&display=swap');
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.logo {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.img-logo {
+    position: absolute;
+    padding-right: 60px;
+}
+
+header {
+    box-shadow: 0px 0px 10px gray;
+    height: 13vh;
+    background-color: black;
+}
+
+#menu ul {
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    width: 100%;
+    right: 4cm;
+    list-style: none;
+    font: 80% Tahoma;
+    right: 4cm;
+    font-size: 18px;
+}
+
+#menu {
+    z-index: 10;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+#menu ul {
+    padding: 40px 0px 10px 0px;
+    background-color: black;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 2px 10px;
+    float: left;
+    right: 200cm;
+    margin-left: 20px;
+}
+
+#menu ul li a:hover {
+    background-color: white;
+    color: rgb(250, 0, 0);
+    border-bottom: 3px solid #EA0000;
+    float: initial;
+}
+
+.cadastro {
+    margin-left: 20px;
+    margin-right: 40px;
+    float: right;
+}
+
+.login {
+    float: right;
+    margin-left: 20px;
+}
+
+.home {
+    float: left;
+    color: #ec1839;
+    margin-left: 20px;
+}
+
+.banner {
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    background-image: url(../img/work.png);
+    justify-content: center;
+    align-items: center;
+}
+
+.primeira-sessao {
+    background: rgba(0, 0, 0, 0.884);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 200px;
+}
+
+.segunda-sessao {
+    display: flex;
+    width: 100%;
+    height: 23vh;
+    background-color: #ec1839;
+    position: relative;
+    align-items: center;
+    box-shadow: 0px -4px 23px rgb(36, 36, 36);
+    padding: 40px 0px 40px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.vagas {
+    list-style: none;
+    color: rgba(0, 0, 0, 0.884);
+    padding-top: 90px;
+    text-align: justify;
+    font-size: 12pt;
+}
+
+.titulo-vagas {
+    font-size: 14pt;
+    color: #e71232;
+    font-weight: 700;
+}
+
+.vagas li {
+    padding-top: 10px;
+}
+
+.desc-vagas {
+    justify-content: center;
+    font-size: 12pt;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sessao-vagas {
+    position: relative;
+    background-color: rgb(201, 201, 201);
+    padding: 0px 100px;
+}
+
+.missao {
+    margin-left: 50px;
+    width: 727px;
+    text-align: center;
+    font-size: 10pt;
+    color: rgb(19, 18, 18);
+}
+
+.span-formulario {
+    position: relative;
+    font-size: 14pt;
+    color: white;
+    z-index: 10;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.formulario {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    border-radius: 3px;
+}
+
+.divisao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 33.33%;
+    padding-top: 20px;
+}
+
+.btn-search {
+    background-color: #ec1839;
+    color: white;
+    border: solid 2px black;
+    font-size: 14pt;
+    border: 0;
+}
+
+.selects {
+    width: 70%;
+    height: 52px;
+    position: relative;
+}
+
+.img-visao {
+    width: 17vw;
+    position: relative;
+}
+
+
+/* Footer*/
+
+footer {
+    background-color: #000;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.Container {
+    padding-top: 6%;
+    padding-right: 29%;
+    color: white;
+    overflow: hidden;
+}
+
+.campost {
+    position: relative;
+    left: -95px;
+}
+
+.form-email-footer {
+    padding-left: 6%;
+    padding-top: 3%;
+    width: 50vw;
+}
+
+#email {
+    height: 30px;
+    width: 35%;
+    text-align: center;
+}
+
+label {
+    font-size: 24px;
+    color: white;
+}
+
+.divlogo {
+    margin-top: 6%;
+    margin-left: 6%;
+}
+
+.article-footer {
+    float: right;
+    width: 46%;
+    height: 26%;
+    margin-top: -8%;
+    border-left: solid 5px crimson;
+}
+
+#botao {
+    margin-left: 4%;
+    width: 22%;
+    height: 41px;
+    border-radius: 10px;
+    color: black;
+    font-size: 22px;
+    border-color: red;
+    background-color: red;
+    transition: 2000ms;
+    font-weight: bold;
+}
+
+#botao:hover {
+    background-color: white;
+}
+
+.atitulo {
+    color: white;
+    position: relative;
+    top: -26px;
+}
+
+@media (max-width: 380px) {
+    @media screen and (min-width: 360px) {
+        .logo img {
+            position: relative;
+            width: 260px;
+            right: -5%;
+            padding-right: 44px;
+        }
+        #menu {
+            width: 100vw;
+            height: 4cm;
+        }
+        #menu ul {
+            margin-bottom: -14%;
+            height: 40%;
+            padding-top: 2px;
+        }
+        #menu ul li a {
+            margin: 0;
+            font-size: smaller;
+        }
+        .lista-1 {
+            height: 129px;
+        }
+        .home {
+            position: relative;
+            left: -1vw;
+        }
+        .portfolio {
+            position: relative;
+            left: -1vw;
+        }
+        .cadastro {
+            position: relative;
+            z-index: 1;
+            left: -12vw;
+            /* top: -175px; */
+        }
+        .login {
+            position: relative;
+            z-index: 1;
+            left: -3vw;
+            top: -24px;
+        }
+        .banner {
+            width: 100vw;
+            height: 66vh;
+        }
+        .formulario {
+            position: absolute;
+            width: 333px;
+            margin-left: 7%;
+            height: 315px;
+            top: -5%;
+        }
+        .div-1 {
+            display: inline;
+        }
+        .segunda-sessao {
+            display: flex;
+            width: 100vw;
+            height: 35vh;
+            background-color: #ec1839;
+            position: relative;
+            /* top: 459px; */
+        }
+        .missao {
+            font-size: 8px;
+            position: relative;
+            top: 13px;
+            right: 63px;
+            width: 717px;
+        }
+        .img-visao {
+            width: 50vw;
+            position: relative;
+            left: 71px;
+            top: 7px;
+            opacity: 0.1;
+        }
+        .missao h2 {
+            width: 69vw;
+            position: relative;
+            left: -40px;
+            /* top: -55px; */
+            font-size: 11pt;
+            text-align: justify;
+        }
+        #sessao-vagas {
+            padding: 0px 30px;
+        }
+        .span-formulario {
+            position: relative;
+            left: -8px;
+            top: 28px;
+        }
+        #search {
+            left: 22px;
+            top: 200px;
+            position: absolute;
+            width: 80%;
+        }
+        #location {
+            position: absolute;
+            top: 140px;
+            left: 22px;
+            width: 80%;
+        }
+        .btn-search {
+            position: absolute;
+            top: 270px;
+            left: 22px;
+            width: 80%;
+        }
+        .primeira-sessao {
+            position: absolute;
+            width: 100vw;
+            height: 10cm;
+            left: 0%;
+            top: 25%
+        }
+        .form-email-footer {
+            padding-left: 2%;
+            margin-top: 2%;
+            width: 97vw;
+            font-size: 12%;
+        }
+        .campost {
+            position: relative;
+            left: 23px;
+            font-weight: bold;
+            font-size: smaller;
+        }
+        #botao {
+            margin-left: 5%;
+            width: 36%;
+            height: 20%;
+        }
+        .div-1 {
+            margin-left: 3%;
+        }
+        label {
+            font-size: 19px;
+        }
+        #email {
+            height: 27px;
+        }
+        .atitulo {
+            top: 0px;
+            font-size: 12pt;
+        }
+        .article-footer {
+            margin-top: 10%;
+        }
+        .divlogo {
+            margin-top: 13%;
+            margin-left: 1%;
+        }
+        .divlogo img {
+            width: 30%;
+        }
+        .Container {
+            padding-right: 11%;
+            padding-top: 8%;
+        }
+        footer {
+            width: 100%;
+            text-align: center;
+            /* margin-top: 50%; */
+            height: 380px;
+        }
+    }
+}
+
+@media (max-width: 330px) {
+    @media screen and (min-width: 320px) {
+        .logo img {
+            position: relative;
+            width: 258px;
+            right: -1%;
+            padding-right: 24px;
+        }
+        #menu {
+            width: 100vw;
+            height: 4cm;
+        }
+        #menu ul {
+            margin-bottom: -14%;
+            height: 40%;
+            padding-top: 2px;
+        }
+        #menu ul li a {
+            margin: 0;
+            font-size: smaller;
+        }
+        .lista-1 {
+            height: 129px;
+        }
+        .home {
+            position: relative;
+            left: -6vw;
+        }
+        .portfolio {
+            position: relative;
+            left: -8vw;
+        }
+        .cadastro {
+            position: relative;
+            z-index: 1;
+            left: -10vw;
+            top: -24px;
+        }
+        .login {
+            position: relative;
+            z-index: 1;
+            left: 49vw;
+            top: -24px;
+        }
+        .banner {
+            width: 100vw;
+            height: 80vh;
+        }
+        .formulario {
+            position: absolute;
+            width: 282px;
+            margin-left: 8%;
+            height: 450px;
+            top: -1%;
+        }
+        .div-1 {
+            display: inline;
+        }
+        .segunda-sessao {
+            display: flex;
+            width: 100vw;
+            height: 42vh;
+            background-color: #ec1839;
+            position: relative;
+            /* top: 459px; */
+        }
+        .missao {
+            font-size: 8px;
+            position: relative;
+            top: 13px;
+            right: 63px;
+            width: 717px;
+        }
+        .img-visao {
+            width: 50vw;
+            position: relative;
+            left: 71px;
+            top: 7px;
+            opacity: 0.1;
+        }
+        .missao h2 {
+            width: 69vw;
+            position: relative;
+            left: -40px;
+            /* top: -55px; */
+            font-size: 11pt;
+            text-align: justify;
+        }
+        #sessao-vagas {
+            padding: 0px 30px;
+        }
+        .span-formulario {
+            position: relative;
+            top: 60px;
+            font-size: 12pt;
+            left: -1%;
+        }
+        #search {
+            left: 22px;
+            top: 220px;
+            position: absolute;
+            height: 15%;
+            width: 80%;
+        }
+        #location {
+            position: absolute;
+            top: 140px;
+            left: 22px;
+            height: 15%;
+            width: 80%;
+        }
+        .btn-search {
+            position: absolute;
+            top: 310px;
+            left: 22px;
+            height: 15%;
+            width: 80%;
+        }
+        .primeira-sessao {
+            position: absolute;
+            width: 100vw;
+            height: 12cm;
+        }
+        .form-email-footer {
+            padding-left: 2%;
+            margin-top: 2%;
+            width: 97vw;
+            font-size: 12%;
+        }
+        .campost {
+            position: relative;
+            left: 23px;
+            font-weight: bold;
+            font-size: smaller;
+        }
+        #botao {
+            margin-left: 5%;
+            width: 36%;
+            height: 20%;
+        }
+        .div-1 {
+            margin-left: 3%;
+        }
+        label {
+            font-size: 19px;
+        }
+        #email {
+            height: 27px;
+        }
+        .atitulo {
+            top: 0px;
+            font-size: 12pt;
+        }
+        .article-footer {
+            margin-top: 10%;
+        }
+        .divlogo {
+            margin-top: 13%;
+            margin-left: 1%;
+        }
+        .divlogo img {
+            width: 30%;
+        }
+        .Container {
+            padding-right: 11%;
+            padding-top: 8%;
+        }
+        footer {
+            width: 100%;
+            text-align: center;
+            /* margin-top: 50%; */
+            height: 380px;
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    /* Breakpoint 400px*/
+    @media screen and (min-width: 411px) {
+        .logo img {
+            position: relative;
+            width: 260px;
+            right: -5%;
+        }
+        #menu {
+            width: 100vw;
+            height: 4cm;
+        }
+        #menu ul {
+            margin-bottom: -14%;
+            height: 40%;
+            padding-top: 2px;
+        }
+        #menu ul li a {
+            margin: 0;
+            font-size: smaller;
+        }
+        .lista-1 {
+            height: 129px;
+        }
+        .home {
+            position: relative;
+            left: 2vw;
+        }
+        .portfolio {
+            position: relative;
+            left: 3vw;
+        }
+        .cadastro {
+            position: relative;
+            z-index: 1;
+            left: -16vw;
+            /* top: -175px; */
+        }
+        .login {
+            position: relative;
+            z-index: 1;
+            left: -5vw;
+            top: -24px;
+        }
+        .banner {
+            width: 100vw;
+            height: 69vh;
+        }
+        .formulario {
+            position: absolute;
+            width: 383px;
+            margin-left: 7%;
+            height: 450px;
+            top: -5%;
+        }
+        .div-1 {
+            display: inline;
+        }
+        .segunda-sessao {
+            display: flex;
+            width: 100vw;
+            height: 35vh;
+            background-color: #ec1839;
+            position: relative;
+            /* top: 459px; */
+        }
+        .missao {
+            font-size: 8px;
+            position: relative;
+            top: 13px;
+            right: 63px;
+            width: 717px;
+        }
+        .img-visao {
+            width: 50vw;
+            position: relative;
+            left: 71px;
+            top: 7px;
+            opacity: 0.1;
+        }
+        .missao h2 {
+            width: 69vw;
+            position: relative;
+            left: -40px;
+            /* top: -55px; */
+            font-size: 11pt;
+            text-align: justify;
+        }
+        #sessao-vagas {
+            padding: 0px 30px;
+        }
+        .span-formulario {
+            position: relative;
+            top: 28px;
+        }
+        #search {
+            left: 22px;
+            top: 220px;
+            position: absolute;
+            height: 15%;
+            width: 80%;
+        }
+        #location {
+            position: absolute;
+            top: 140px;
+            left: 22px;
+            height: 15%;
+            width: 80%;
+        }
+        .btn-search {
+            position: absolute;
+            top: 310px;
+            left: 22px;
+            height: 15%;
+            width: 80%;
+        }
+        .primeira-sessao {
+            position: absolute;
+            width: 100vw;
+            height: 12cm;
+            top: 22%;
+        }
+        .form-email-footer {
+            padding-left: 2%;
+            margin-top: 2%;
+            width: 97vw;
+            font-size: 12%;
+        }
+        .campost {
+            position: relative;
+            left: 23px;
+            font-weight: bold;
+            font-size: smaller;
+        }
+        #botao {
+            margin-left: 5%;
+            width: 36%;
+            height: 20%;
+        }
+        .div-1 {
+            margin-left: 3%;
+        }
+        label {
+            font-size: 19px;
+        }
+        #email {
+            height: 27px;
+        }
+        .atitulo {
+            top: 0px;
+            font-size: 12pt;
+        }
+        .article-footer {
+            margin-top: 10%;
+        }
+        .divlogo {
+            margin-top: 13%;
+            margin-left: 1%;
+        }
+        .divlogo img {
+            width: 30%;
+        }
+        .Container {
+            padding-right: 11%;
+            padding-top: 8%;
+        }
+        footer {
+            width: 100%;
+            text-align: center;
+            /* margin-top: 50%; */
+            height: 380px;
+        }
+    }
+}
